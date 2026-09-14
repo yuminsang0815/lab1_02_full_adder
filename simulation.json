@@ -1,5 +1,8 @@
 {
-  "sources": ["src/design.v"],
-  "testbench": "sim/tb_design.v",
-  "simulation_top": "tb_design"
+  "sources": [
+    "src/full_adder.v",
+    "src/half_adder.v"
+  ],
+  "testbench": "sim/tb_full_adder.sv",
+  "simulation_top": "tb_full_adder"
 }
