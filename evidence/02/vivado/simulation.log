@@ -1,0 +1,3 @@
+Time resolution is 1 ps
+LAB1_PASS full_adder cases=8
+$finish called at time : 80 ns : File "C:/Users/a2391/lab1_02_full_adder/sim/tb_full_adder.sv" Line 19

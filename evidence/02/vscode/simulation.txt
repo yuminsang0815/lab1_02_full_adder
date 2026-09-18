@@ -1,0 +1,15 @@
+RUN C:\iverilog\bin\iverilog.EXE -g2012 -Wall -I C:\Users\a2391\lab1_02_full_adder\src -I C:\Users\a2391\lab1_02_full_adder\sim -s tb_full_adder -o C:\Users\a2391\lab1_02_full_adder\build\sim\run-8df734fc6715457aa4077daf62796178\sim.vvp C:\Users\a2391\lab1_02_full_adder\src\full_adder.v C:\Users\a2391\lab1_02_full_adder\src\half_adder.v C:\Users\a2391\lab1_02_full_adder\sim\tb_full_adder.sv
+warning: Some design elements have no explicit time unit and/or
+       : time precision. This may cause confusing timing results.
+       : Affected design elements are:
+       :   -- module full_adder declared here: C:\Users\a2391\lab1_02_full_adder\src\full_adder.v:1
+       :   -- module half_adder declared here: C:\Users\a2391\lab1_02_full_adder\src\half_adder.v:1
+
+RUN C:\iverilog\bin\vvp.EXE -N C:\Users\a2391\lab1_02_full_adder\build\sim\run-8df734fc6715457aa4077daf62796178\sim.vvp
+VCD info: dumpfile wave.vcd opened for output.
+LAB1_PASS full_adder cases=8
+C:\Users\a2391\lab1_02_full_adder\sim\tb_full_adder.sv:19: $finish called at 80000 (1ps)
+
+시뮬레이션 실행 완료. 진리표·자기검사·파형으로 회로의 정답 여부를 확인하세요.
+WAVE C:\Users\a2391\lab1_02_full_adder\build\sim\wave.vcd
+ *  Terminal will be reused by tasks, press any key to close it. 
