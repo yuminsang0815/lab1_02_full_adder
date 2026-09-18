@@ -14,7 +14,7 @@ Run Simulation → Run Behavioral Simulation에서 [실제 GUI 시뮬레이션 �
 
 Close Simulation → Run Synthesis → Run Implementation → Generate Bitstream을 GUI에서 차례로 실행하고 각 성공 창을 확인했습니다. [GUI 빌드 로그](../../evidence/02/vivado/build.log)를 보관했습니다.
 
-생성 파일은 `vivado/full_adder.runs/impl_1/full_adder.bit`, 크기는 4,715,517바이트입니다. 배포 [logic_gate.bit](../../vivado/full_adder.runs/impl_1/full_adder.bit)의 SHA-256은 `95A9BFC34B36324E936C0918B614B3DFF77F932332D1F6F3BE5A2740A49B4288`입니다.
+생성 파일은 `vivado/full_adder.runs/impl_1/full_adder.bit`, 크기는 4,715,517바이트입니다. 배포 [full_adder.bit](../../vivado/full_adder.runs/impl_1/full_adder.bit)의 SHA-256은 `95A9BFC34B36324E936C0918B614B3DFF77F932332D1F6F3BE5A2740A49B4288`입니다.
 
 오류 및 경고 여부는 실험 시에 기록해두지 못했습니다. 다음 실험 부터 기록하겠습니다.
 
