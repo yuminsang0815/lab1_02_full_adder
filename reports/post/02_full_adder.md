@@ -2,7 +2,7 @@
 
 작성일 2026-09-19.
 
-[실험 전 레포트](../../reports/pre/02_full_adder) · [해시·입력 기록](../../build/sim/result.json)
+[실험 전 레포트](../../reports/pre/02_full_adder.md) · [해시·입력 기록](../../build/sim/result.json)
 
 ## Vivado GUI 과정과 사전 결과 비교
 
